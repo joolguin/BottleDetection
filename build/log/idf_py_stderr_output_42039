@@ -1,0 +1,26 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/cu.usbserial-14430 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d8ddf: loop at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:101
+[0m
+[0;33m0x4008707d: strlen at /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x4008708d: strlen at /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m0x400d8ddc: loop at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:101
+0x400d8352: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:22 (discriminator 1)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d8ddf: loop at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:101
+[0m
+[0;33m0x4008707d: strlen at /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:84
+0x4008708d: strlen at /builds/idf/crosstool-NG/.build/HOST-x86_64-apple-darwin21.1/xtensa-esp-elf/src/newlib/newlib/libc/machine/xtensa/strlen.S:96
+[0m
+[0;33m0x400d8ddc: loop at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:101
+[0m
+[0;33m0x400d8352: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:22 (discriminator 1)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m

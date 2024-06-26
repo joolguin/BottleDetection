@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/jose/esp/projects_tf/bottle_detection/build/CMakeFiles/bootloader
+/Users/jose/esp/projects_tf/bottle_detection/build/CMakeFiles/bootloader.rule
+/Users/jose/esp/projects_tf/bottle_detection/build/CMakeFiles/bootloader-complete.rule
+/Users/jose/esp/projects_tf/bottle_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/jose/esp/projects_tf/bottle_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/jose/esp/projects_tf/bottle_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/jose/esp/projects_tf/bottle_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/jose/esp/projects_tf/bottle_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/jose/esp/projects_tf/bottle_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/jose/esp/projects_tf/bottle_detection/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

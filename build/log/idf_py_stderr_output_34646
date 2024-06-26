@@ -1,0 +1,142 @@
+[0;33m--- esp-idf-monitor 1.4.0 on /dev/cu.usbserial-14430 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+[0m
+[0;33m0x40081e9d: panic_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/panic.c:463
+0x4008939d: esp_system_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008f34d: abort at /Users/jose/esp/idf/esp-idf/components/newlib/abort.c:38
+0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+0x400e0882: tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc:123
+0x400dce3a: tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/esp_nn/softmax.cc:149
+0x400d8fcf: tflite::MicroInterpreterGraph::PrepareSubgraphs() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc:102
+0x400d8aa4: tflite::MicroInterpreter::AllocateTensors() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter.cc:220
+0x400d8367: setup at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:70
+0x400d7f6f: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:16
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+[0m
+[0;33m0x40081e9d: panic_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/panic.c:463
+0x4008939d: esp_system_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008f34d: abort at /Users/jose/esp/idf/esp-idf/components/newlib/abort.c:38
+0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+0x400e0882: tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc:123
+0x400dce3a: tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/esp_nn/softmax.cc:149
+0x400d8fcf: tflite::MicroInterpreterGraph::PrepareSubgraphs() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc:102
+0x400d8aa4: tflite::MicroInterpreter::AllocateTensors() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter.cc:220
+0x400d8367: setup at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:70
+0x400d7f6f: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:16
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+[0m
+[0;33m0x40081e9d: panic_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/panic.c:463
+0x4008939d: esp_system_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008f34d: abort at /Users/jose/esp/idf/esp-idf/components/newlib/abort.c:38
+0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+0x400e0882: tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc:123
+0x400dce3a: tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/esp_nn/softmax.cc:149
+0x400d8fcf: tflite::MicroInterpreterGraph::PrepareSubgraphs() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc:102
+0x400d8aa4: tflite::MicroInterpreter::AllocateTensors() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter.cc:220
+0x400d8367: setup at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:70
+0x400d7f6f: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:16
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+[0m
+[0;33m0x40081e9d: panic_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/panic.c:463
+0x4008939d: esp_system_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008f34d: abort at /Users/jose/esp/idf/esp-idf/components/newlib/abort.c:38
+0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+0x400e0882: tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc:123
+0x400dce3a: tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/esp_nn/softmax.cc:149
+0x400d8fcf: tflite::MicroInterpreterGraph::PrepareSubgraphs() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc:102
+0x400d8aa4: tflite::MicroInterpreter::AllocateTensors() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter.cc:220
+0x400d8367: setup at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:70
+0x400d7f6f: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:16
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+[0m
+[0;33m0x40081e9d: panic_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/panic.c:463
+0x4008939d: esp_system_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008f34d: abort at /Users/jose/esp/idf/esp-idf/components/newlib/abort.c:38
+0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+0x400e0882: tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc:123
+0x400dce3a: tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/esp_nn/softmax.cc:149
+0x400d8fcf: tflite::MicroInterpreterGraph::PrepareSubgraphs() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc:102
+0x400d8aa4: tflite::MicroInterpreter::AllocateTensors() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter.cc:220
+0x400d8367: setup at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:70
+0x400d7f6f: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:16
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+[0m
+[0;33m0x40081e9d: panic_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/panic.c:463
+0x4008939d: esp_system_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008f34d: abort at /Users/jose/esp/idf/esp-idf/components/newlib/abort.c:38
+0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+0x400e0882: tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc:123
+0x400dce3a: tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/esp_nn/softmax.cc:149
+0x400d8fcf: tflite::MicroInterpreterGraph::PrepareSubgraphs() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc:102
+0x400d8aa4: tflite::MicroInterpreter::AllocateTensors() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter.cc:220
+0x400d8367: setup at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:70
+0x400d7f6f: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:16
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+[0m
+[0;33m0x40081e9d: panic_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/panic.c:463
+0x4008939d: esp_system_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008f34d: abort at /Users/jose/esp/idf/esp-idf/components/newlib/abort.c:38
+0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+0x400e0882: tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc:123
+0x400dce3a: tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/esp_nn/softmax.cc:149
+0x400d8fcf: tflite::MicroInterpreterGraph::PrepareSubgraphs() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc:102
+0x400d8aa4: tflite::MicroInterpreter::AllocateTensors() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter.cc:220
+0x400d8367: setup at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:70
+[0m
+[0;33m0x400d7f6f: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:16
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+[0m
+[0;33m0x40081e9d: panic_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/panic.c:463
+0x4008939d: esp_system_abort at /Users/jose/esp/idf/esp-idf/components/esp_system/port/esp_system_chip.c:92
+0x4008f34d: abort at /Users/jose/esp/idf/esp-idf/components/newlib/abort.c:38
+0x400e1834: tflite::QuantizeMultiplierGreaterThanOne(double, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:109 (discriminator 1)
+ (inlined by) tflite::PreprocessSoftmaxScaling(double, double, int, long*, int*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/kernels/internal/quantization_util.cc:317 (discriminator 1)
+0x400e0882: tflite::CalculateSoftmaxParams(TfLiteContext*, TfLiteTensor const*, TfLiteTensor*, TfLiteSoftmaxParams const*, tflite::SoftmaxParams*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/softmax_common.cc:123
+0x400dce3a: tflite::(anonymous namespace)::Prepare(TfLiteContext*, TfLiteNode*) at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/kernels/esp_nn/softmax.cc:149
+0x400d8fcf: tflite::MicroInterpreterGraph::PrepareSubgraphs() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter_graph.cc:102
+0x400d8aa4: tflite::MicroInterpreter::AllocateTensors() at /Users/jose/esp/projects_tf/bottle_detection/managed_components/espressif__esp-tflite-micro/tensorflow/lite/micro/micro_interpreter.cc:220
+0x400d8367: setup at /Users/jose/esp/projects_tf/bottle_detection/main/main_functions.cc:70
+0x400d7f6f: tf_main() at /Users/jose/esp/projects_tf/bottle_detection/main/main.cc:16
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0m
